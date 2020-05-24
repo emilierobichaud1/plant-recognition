@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="30sp"
+        android:alpha="0.9"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.6"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/photo_camera_button"
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_margin="10dp"
+            android:alpha="0.8"
+            android:background="@drawable/tester" />
+
+    </LinearLayout>
+
+</RelativeLayout>
